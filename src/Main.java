@@ -4,7 +4,7 @@ public class Main {
         Book magica = new Book("Magica", 1999, killanAr);
         Author kozlovskiDa = new Author("Danila Kozlovski");
         Book kamonRebyat = new Book("Kamon Rebyat", 2016, kozlovskiDa);
-        kamonRebyat.setRelease(2020);
+        kamonRebyat.setRelease(2022);
         System.out.println(kamonRebyat.getRelease());
     }
 }
